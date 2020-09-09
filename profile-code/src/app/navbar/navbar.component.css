@@ -1,0 +1,32 @@
+.container {
+    padding: 10px;
+}
+.title_div {
+    cursor: pointer; 
+    border: none !important;
+
+}
+.title_div > a {
+    text-decoration: none;
+}
+.name_tag {
+    font: normal normal bold 25px/1.4em poppins-semibold,poppins,sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+.role_tag {
+    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+.active {
+    color: #0050FF;
+}
+a {
+    cursor: pointer; 
+    color: #000000;
+}
+a:hover{
+    cursor: pointer; 
+    color: #0050FF;
+}
