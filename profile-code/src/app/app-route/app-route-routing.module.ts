@@ -6,10 +6,6 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { ContactComponent } from '../contact/contact.component';
 const routes: Routes = [
   {
-    path: "",
-    component: AppComponent
-  },
-  {
     path: "resume",
     component: ResumeComponent
   },
