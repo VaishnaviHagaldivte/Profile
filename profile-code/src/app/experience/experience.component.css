@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.article {
+    flex: 0 0 50%;
+    padding: 10px;
+  }
+.year {
+    color:#0050ff;
+    font-size: 20px;
+    font-weight: bold;
+}

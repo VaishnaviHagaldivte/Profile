@@ -1,0 +1,17 @@
+<div *ngFor="let education of educations"> 
+    <div class="card"  style="width: 40rem;height: auto;top: 20px;margin-bottom: 30px;">
+            <div class="card-body container">
+                    <div class="article" >
+                        <p class="year">{{education.year}}</p>
+                        <p class="job"><b>{{education.university}}</b></p>
+                        <p class="degree">{{education.degree}}</p>
+                        <p class="major">{{education.major}}</p>
+                        <p class="location">{{education.location}}</p>
+                    </div>
+                    <div class="article">
+                        <p class="description">{{education.description}} </p>
+                    </div>
+            </div>
+            
+    </div>
+</div>

@@ -1,18 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-info-cards',
-  templateUrl: './info-cards.component.html',
-  styleUrls: ['./info-cards.component.css']
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.css']
 })
-export class InfoCardsComponent implements OnInit {
+export class ExperienceComponent implements OnInit {
 
   year: string
   job: string
   company: string
   location: string
   description: string
-
   experiences = [
     {
       year: 'JAN 2019 - DEC 2019',
